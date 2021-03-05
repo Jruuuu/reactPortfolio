@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/reactPortfolio/static/css/main.18795587.chunk.css",
-    "main.js": "/reactPortfolio/static/js/main.4d59b3e6.chunk.js",
-    "main.js.map": "/reactPortfolio/static/js/main.4d59b3e6.chunk.js.map",
+    "main.css": "/reactPortfolio/static/css/main.b843f9bb.chunk.css",
+    "main.js": "/reactPortfolio/static/js/main.db40fcbe.chunk.js",
+    "main.js.map": "/reactPortfolio/static/js/main.db40fcbe.chunk.js.map",
     "runtime-main.js": "/reactPortfolio/static/js/runtime-main.9aa64a44.js",
     "runtime-main.js.map": "/reactPortfolio/static/js/runtime-main.9aa64a44.js.map",
     "static/css/2.fabbef47.chunk.css": "/reactPortfolio/static/css/2.fabbef47.chunk.css",
-    "static/js/2.2349f819.chunk.js": "/reactPortfolio/static/js/2.2349f819.chunk.js",
-    "static/js/2.2349f819.chunk.js.map": "/reactPortfolio/static/js/2.2349f819.chunk.js.map",
+    "static/js/2.bd3e72e8.chunk.js": "/reactPortfolio/static/js/2.bd3e72e8.chunk.js",
+    "static/js/2.bd3e72e8.chunk.js.map": "/reactPortfolio/static/js/2.bd3e72e8.chunk.js.map",
     "index.html": "/reactPortfolio/index.html",
     "static/css/2.fabbef47.chunk.css.map": "/reactPortfolio/static/css/2.fabbef47.chunk.css.map",
-    "static/css/main.18795587.chunk.css.map": "/reactPortfolio/static/css/main.18795587.chunk.css.map",
-    "static/js/2.2349f819.chunk.js.LICENSE.txt": "/reactPortfolio/static/js/2.2349f819.chunk.js.LICENSE.txt"
+    "static/css/main.b843f9bb.chunk.css.map": "/reactPortfolio/static/css/main.b843f9bb.chunk.css.map",
+    "static/js/2.bd3e72e8.chunk.js.LICENSE.txt": "/reactPortfolio/static/js/2.bd3e72e8.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/reactPortfolio/static/media/bodybg.514add8c.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9aa64a44.js",
     "static/css/2.fabbef47.chunk.css",
-    "static/js/2.2349f819.chunk.js",
-    "static/css/main.18795587.chunk.css",
-    "static/js/main.4d59b3e6.chunk.js"
+    "static/js/2.bd3e72e8.chunk.js",
+    "static/css/main.b843f9bb.chunk.css",
+    "static/js/main.db40fcbe.chunk.js"
   ]
 }

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/EmployeReact/static/css/main.18795587.chunk.css",
+    "main.js": "/EmployeReact/static/js/main.1190072f.chunk.js",
+    "main.js.map": "/EmployeReact/static/js/main.1190072f.chunk.js.map",
+    "runtime-main.js": "/EmployeReact/static/js/runtime-main.28f23020.js",
+    "runtime-main.js.map": "/EmployeReact/static/js/runtime-main.28f23020.js.map",
+    "static/css/2.fabbef47.chunk.css": "/EmployeReact/static/css/2.fabbef47.chunk.css",
+    "static/js/2.2349f819.chunk.js": "/EmployeReact/static/js/2.2349f819.chunk.js",
+    "static/js/2.2349f819.chunk.js.map": "/EmployeReact/static/js/2.2349f819.chunk.js.map",
+    "index.html": "/EmployeReact/index.html",
+    "static/css/2.fabbef47.chunk.css.map": "/EmployeReact/static/css/2.fabbef47.chunk.css.map",
+    "static/css/main.18795587.chunk.css.map": "/EmployeReact/static/css/main.18795587.chunk.css.map",
+    "static/js/2.2349f819.chunk.js.LICENSE.txt": "/EmployeReact/static/js/2.2349f819.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.28f23020.js",
+    "static/css/2.fabbef47.chunk.css",
+    "static/js/2.2349f819.chunk.js",
+    "static/css/main.18795587.chunk.css",
+    "static/js/main.1190072f.chunk.js"
+  ]
+}

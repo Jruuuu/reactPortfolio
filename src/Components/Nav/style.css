@@ -1,8 +1,10 @@
-nav {
+Nav.Link {
     background-color: #37c0bc;
     
 }
 
-.nav-item {
-    background-color: red;
+nav a{
+    font-family: 'Shrikhand', cursive;
+    color:rgb(7, 179, 209);
 }
+

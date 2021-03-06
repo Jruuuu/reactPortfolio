@@ -1,7 +1,10 @@
 import "react-bootstrap";
 import "./style.css"
+import gitHubIcon from "../../assets/images/GitHub-Mark-Light-32px.png";
+import linkedInIcon from "../../assets/images/LI-In-Bug.png";
+import instgramIcon from "../../assets/images/Instagram.png";
 
-const gitHubIcon = "../../assets/images/GitHub-Mark-Light-32px.png"
+
 
 
 
@@ -16,7 +19,7 @@ function App() {
             className="navbar-brand"
             href="https://github.com/Jruuuu"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
 
           <img
@@ -29,11 +32,11 @@ function App() {
             className="navbar-brand"
             href="https://www.linkedin.com/in/enrilo-ugalde"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
 
           <img
-            src="../assets/images/LI-In-Bug.png"
+            src={linkedInIcon}
             alt="linkedin icon"
             loading="lazy"
             ></img>
@@ -42,11 +45,11 @@ function App() {
             className="navbar-brand"
             href="https://www.instagram.com/jruuuu"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             {" "}
           <img
-            src="../assets/images/Instagram.png"
+            src={instgramIcon}
             alt="instagram icon"
             loading="lazy"
             ></img>

@@ -1,6 +1,9 @@
 import "react-bootstrap";
 import "./style.css"
 
+const gitHubIcon = "../../assets/images/GitHub-Mark-Light-32px.png"
+
+
 
 function App() {
   return (
@@ -17,7 +20,7 @@ function App() {
           >
 
           <img
-            src="../assets/images/GitHub-Mark-Light-32px.png"
+            src={gitHubIcon}
             alt="github icon"
             loading="lazy"
             ></img>

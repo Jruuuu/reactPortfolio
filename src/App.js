@@ -4,12 +4,10 @@ import Footer from "./Components/Footer";
 import About from "./Components/About";
 import Portfolio from "./Components/Portfolio";
 import "./style.css"
-import React, {useRef} from "react";
 
 export default function App() {
 
-        const aboutMe = useRef(null)
-
+       
   
 
 
@@ -17,15 +15,11 @@ export default function App() {
     <div className="App">
 
       <Nav />
-      <div className="WelcomeScreen">
-        <Main
-        about={aboutMe}
-        
-        
-        />
+      <div className="Main">
+        <Main/>
       </div>
-      <div className="About" ref={aboutMe}>
-        <About />
+      <div className="About" >
+        <About/>
       </div>
 
       <div className="Portfolio">

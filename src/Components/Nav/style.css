@@ -3,8 +3,10 @@ nav{
     
 }
 
-nav a{
+
+nav button{
     font-family: 'Shrikhand', cursive;
     color:rgb(7, 179, 209);
+    border: none;
 }
 

@@ -1,9 +1,29 @@
-
+import React from 'react';
 import "./style.css"
 // import Nav from "react-bootstrap/Nav";
 // import Navbar from "react-bootstrap/Navbar";
 
 export default function App(){
+
+  
+
+  function findPos(obj) {
+    let curtop = 0;
+    if (obj.offsetParent) {
+        do {            
+            curtop += obj.offsetTop;
+        } while (obj === obj.offsetParent);
+    return [curtop];
+    }
+  }
+
+function scrollToSection(e) {
+    window.scrollTo({
+        top: findPos(document.getElementById(e)),
+        left: 0,
+        behavior: 'smooth'
+    })
+}
   return (
    
     // <Nav className="justify-content-end" activeKey="/home">
@@ -20,17 +40,17 @@ export default function App(){
    
     <nav className="navbar fixed-top navbar-expand-lg navbar-dark">
    
-    <a className="navbar-brand" href="/">JR</a>
-    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+    <button className="navbar-brand js-scroll-trigger" onClick={()=>scrollToSection('Main')} style={{cursor: "default" }}>JR</button>
+    <button className="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav ml-auto">
-        <a className="nav-link" href="resume">RESUME</a>
+        <button className="nav-link" >RESUME</button>
         
-        <a className="nav-link active" href="portfolio">PORTFOLIO <span className="sr-only">(current)</span></a>
-        <a className="nav-link" href="aboutme">ABOUT</a>
+        <button className="nav-link  js-scroll-trigger"onClick={()=>scrollToSection('Portfolio')} style={{cursor: "default"}}>PORTFOLIO </button>
+        <button className="nav-link js-scroll-trigger"onClick={()=>scrollToSection('About')}style={{cursor: "default"}}>ABOUT</button>
 
       </div>
     </div>

@@ -11,7 +11,7 @@ import popquery from "../../assets/images/popqueryimg.JPG";
 
 export default function Portfolio() {
     return (
-        <div class="container" id="portfolio">
+        <div class="container" id="Portfolio">
     <h1>PORTFOLIO</h1>
     <div class="row">
       <hr/>

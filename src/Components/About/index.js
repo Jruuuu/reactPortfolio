@@ -17,7 +17,7 @@ import React from "../../assets/images/React.svg";
 export default function About() {
 
     return (
-        <div className="container col-md-10" id="about">
+        <div className="container col-md-10" id="About">
     <div className="row">
       <div className="col-md-12">
         <h1>Enrilo M. Ugalde JR</h1>

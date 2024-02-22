@@ -45,7 +45,7 @@ export default function Main() {
             <div className="dropdown-content">
               <button onClick={()=>scrollToSection('About')} >ABOUT ME </button>
               <button onClick={()=>scrollToSection('Portfolio')} >PORTFOLIO</button>
-              <button onClick={()=>scrollToSection('Resume')} >RESUME</button>
+              {/* <button onClick={()=>scrollToSection('Resume')} >RESUME</button> */}
             </div>
           </button>
         </div>

@@ -6,3 +6,8 @@
     margin-top: 500px;
     margin-bottom: 100px;
 }
+body{
+    background-image: url(assets/images/bodybg.jpg);
+    background-position: top;
+    background-size: contain;
+}

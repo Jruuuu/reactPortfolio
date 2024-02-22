@@ -2,7 +2,7 @@
 import"./style.css";
 
 function findPos(obj) {
-  let curtop = 0;
+  let curtop = -60;
   if (obj.offsetParent) {
       do {            
           curtop += obj.offsetTop;
@@ -23,9 +23,9 @@ function scrollToSection(e) {
 export default function Main() {
  
     return (
-      
-        <div className="container welcome" id="Main">
-        <h2>
+
+        <div className="container welcome">
+        <h2  id="Main">
           Hello! I'm<span>JR,</span>
         </h2>
         <span className="text2">Take a Look Around</span>
